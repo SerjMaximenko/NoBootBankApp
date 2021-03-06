@@ -1,0 +1,1 @@
+INSERT INTO bank_scheme.users (login, name, password, surname) VALUES ('user1', 'Anton', '1', 'Maximov')
