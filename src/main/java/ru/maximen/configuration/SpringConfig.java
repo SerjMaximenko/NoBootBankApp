@@ -24,7 +24,7 @@ public class SpringConfig implements WebMvcConfigurer {
     ViewResolver viewResolver(){
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();
         resolver.setPrefix("/WEB-INF/views/");
-        resolver.setSuffix(".html");
+        resolver.setSuffix(".jsp");
         return resolver;
     }
 
@@ -40,7 +40,8 @@ public class SpringConfig implements WebMvcConfigurer {
 
     //интерфейс, реализуемый объектами, которые способны находить представления View по имени View Name.
     @Bean
-    public ViewResolver internalResourceViewResolver() {
+    public ViewResolver
+     internalResourceViewResolver() {
         InternalResourceViewResolver bean = new InternalResourceViewResolver();
         bean.setApplicationContext(applicationContext);
         bean.setPrefix("/WEB-INF/views/");

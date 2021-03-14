@@ -2,9 +2,6 @@ package ru.maximen.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import ru.maximen.entity.Card;
 import ru.maximen.entity.Transaction;
@@ -22,16 +19,8 @@ public class CardController {
     private final CardService cardService;
     private final TransactionService transactionService;
 
-    @GetMapping(value = "/add/{cardNumber}/{pin}/{balance}/{expiredDate}/{cvc}")
-    public String addNewCard(
-            @PathVariable(value = "cardNumber") Long cardNumber,
-            @PathVariable(value = "pin") Long pin,
-            @PathVariable(value = "balance") Float balance,
-            @PathVariable(value = "expiredDate") String expiredDate,
-            @PathVariable(value = "cvc") Long cvc
-            ){
-        Card card = new Card(cardNumber, pin, balance, expiredDate, new User(), cvc);
-
+    @PostMapping(value = "/add")
+    public String addNewCard(@RequestBody Card card){
         return cardService.addCard(card);
     }
 

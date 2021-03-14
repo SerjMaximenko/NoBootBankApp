@@ -6,6 +6,8 @@ import org.springframework.stereotype.Repository;
 import ru.maximen.dao.CardDao;
 import ru.maximen.entity.Card;
 
+import java.util.logging.Logger;
+
 
 @Repository
 @RequiredArgsConstructor
@@ -15,6 +17,7 @@ public class CardDaoImpl implements CardDao {
 
     @Override
     public void addCard(Card card){
+
         sessionFactory.getCurrentSession().save(card);
     }
 

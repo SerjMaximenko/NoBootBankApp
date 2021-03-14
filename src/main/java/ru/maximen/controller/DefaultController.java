@@ -12,8 +12,9 @@ public class DefaultController {
     }
 
     @GetMapping("/")
-    public void test(){
+    public String test(){
         System.out.println(" test ");
+        return "index";
     }
 
 
