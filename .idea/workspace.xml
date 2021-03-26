@@ -7,7 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="257acc93-ae6d-48cd-8781-58adaad04928" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/maximen/controller/CardControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/91e3c471-e8fb-4a0d-8041-eff3911a206c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/91e3c471-e8fb-4a0d-8041-eff3911a206c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +151,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tlx" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
@@ -155,21 +159,22 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.maximen.controller" />
       <recent name="ru.maximen.services.impl" />
       <recent name="ru.maximen.dao.Impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Slegonca\IdeaProjects\LessonsSolvery\BankApp\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\Slegonca\IdeaProjects\LessonsSolvery\BankApp\src\main\java\ru\maximen\configuration" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Slegonca\IdeaProjects\LessonsSolvery\BankApp\src\main\resources" />
       <recent name="C:\Users\Slegonca\IdeaProjects\LessonsSolvery\BankApp" />
       <recent name="C:\Users\Slegonca\IdeaProjects\LessonsSolvery\BankApp\src\main\webapp\WEB-INF\views" />
       <recent name="C:\Users\Slegonca\IdeaProjects\LessonsSolvery\BankApp\src\main" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Slegonca\IdeaProjects\LessonsSolvery\BankApp\src\main\webapp\WEB-INF\views" />
-      <recent name="C:\Users\Slegonca\IdeaProjects\LessonsSolvery\BankApp\src\main\java\ru\maximen\configuration" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -189,32 +194,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CardServiceImplTest.addCard_exist">
-    <configuration name="CardDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CardControllerTest">
+    <configuration name="CardControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BankApp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.maximen.dao.Impl.*" />
+          <option name="PATTERN" value="ru.maximen.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.maximen.dao.Impl" />
-      <option name="MAIN_CLASS_NAME" value="ru.maximen.dao.Impl.CardDaoImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CardDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BankApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.maximen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.maximen" />
-      <option name="MAIN_CLASS_NAME" value="ru.maximen.CardDaoTest" />
+      <option name="PACKAGE_NAME" value="ru.maximen.controller" />
+      <option name="MAIN_CLASS_NAME" value="ru.maximen.controller.CardControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -357,20 +347,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.CardServiceImplTest2" />
-      <item itemvalue="JUnit.CardDaoTest" />
       <item itemvalue="JUnit.CardServiceImplTest" />
-      <item itemvalue="JUnit.CardDaoImplTest" />
       <item itemvalue="JUnit.CardServiceImplTest.addCard_exist" />
       <item itemvalue="JUnit.CardServiceImplTest.addCard_added" />
+      <item itemvalue="JUnit.CardControllerTest" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.41" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CardControllerTest" />
         <item itemvalue="JUnit.CardServiceImplTest.addCard_exist" />
         <item itemvalue="JUnit.CardServiceImplTest.addCard_added" />
         <item itemvalue="JUnit.CardServiceImplTest" />
         <item itemvalue="JUnit.CardServiceImplTest2" />
-        <item itemvalue="JUnit.CardDaoImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -427,7 +416,14 @@
       <workItem from="1615482924044" duration="7234000" />
       <workItem from="1615564043902" duration="6000000" />
       <workItem from="1615613301687" duration="9314000" />
-      <workItem from="1615725113817" duration="2063000" />
+      <workItem from="1615725113817" duration="3401000" />
+      <workItem from="1615892325262" duration="3229000" />
+      <workItem from="1615975069645" duration="1346000" />
+      <workItem from="1616002846235" duration="2974000" />
+      <workItem from="1616040329964" duration="4838000" />
+      <workItem from="1616164927359" duration="59000" />
+      <workItem from="1616234266450" duration="2473000" />
+      <workItem from="1616523715041" duration="28000" />
     </task>
     <servers />
   </component>
